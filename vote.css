@@ -1,0 +1,37 @@
+.text {
+  font-family: 'Finger Paint', cursive;
+  color: #A64E55;
+}
+
+.left {
+  box-shadow: 3px 4px 5px 4px;
+  background-image:url(../CatPics/1.jpg);
+}
+
+body {
+  background-color: #79E6F2;
+}
+
+.button {
+  display: inline-block;
+  align: center;
+}
+/*.flex
+ {
+    width: 350px;
+    height: 200px;
+    border: 1px solid #555;
+    font: 14px Arial;
+
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+
+    display: flex-inline;
+    flex-direction: row;
+ }
+
+.item #img1{
+  align-self:center;
+}*/
+
+
