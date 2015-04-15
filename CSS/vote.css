@@ -3,9 +3,12 @@
   color: #A64E55;
 }
 
-.left {
+#left {
   box-shadow: 3px 4px 5px 4px;
-  background-image:url(../CatPics/1.jpg);
+}
+
+#right {
+  box-shadow: 3px 4px 5px 4px;
 }
 
 body {

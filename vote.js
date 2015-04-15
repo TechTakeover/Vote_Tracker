@@ -1,8 +1,9 @@
-var Pictures = function(cats, images, votes, photos) {
+var Pictures = function(cats, images, votes, photos, url) {
   this.cats = cats;
   this.images = images;
+  this.url =url;
   this.photos = [];
-}
+};
 
 Pictures.prototype.rotation = function() {
   var photos = [];
@@ -12,11 +13,11 @@ Pictures.prototype.rotation = function() {
   };
 };
 
-// var leftEl = document.getElementsByid('Left');
-// leftEl.style.backgroundImage = url(' + photos[Math.floor(Math.random) * 4)] +');
+var leftEl = document.getElementById('Left');
+leftEl.style.backgroundImage = url(' + this.photos[Math.floor(Math.random) * 4)] + ');
 
-// var rightEl = document.getElementsByid('Right');
-// rightEl.style.backgroundImage = url(' + photos[Math.floor(Math.random) * 4)] +');
+var rightEl = document.getElementById('Right');
+rightEl.style.backgroundImage = url(' + photos[Math.floor(Math.random) * 4)] + ');
 
   // var Votes = function(votes) {
   //   this.votes = votes;
