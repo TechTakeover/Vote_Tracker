@@ -1,6 +1,15 @@
 .text {
   font-family: 'Finger Paint', cursive;
   color: #A64E55;
+  margin-left: 400px;
+  margin-right: 360px;
+}
+
+.middletxt {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 125px;
+  margin-bottom: 100px;
 }
 
 #left {
@@ -11,30 +20,33 @@
   box-shadow: 3px 4px 5px 4px;
 }
 
+.images {
+  display: inline-flex;
+  margin-left: 380px;
+  margin-right: 380px;
+}
+
+.images .text {
+  margin-right: .5px;
+}
+
 body {
   background-color: #79E6F2;
 }
 
-.button {
-  display: inline-block;
-  align: center;
+.graph {
+  margin-left: 610px;
+  margin-right: 610px;
+  margin-top: 20px;
 }
-/*.flex
- {
-    width: 350px;
-    height: 200px;
-    border: 1px solid #555;
-    font: 14px Arial;
 
-    display: -webkit-flex;
-    -webkit-flex-direction: row;
+.button {
+  margin-top: 20px;
+  margin-left: 620px;
+  margin-right: 610px;
+}
 
-    display: flex-inline;
-    flex-direction: row;
- }
-
-.item #img1{
-  align-self:center;
-}*/
-
-
+.subtitle {
+  margin-left: 450px;
+  margin-right: 450px;
+}
